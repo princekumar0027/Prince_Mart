@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import faiss
 import numpy as np
 import streamlit as st
@@ -26,8 +27,8 @@ div[data-testid="stChatMessage"] {border-radius: 12px;}
 """, unsafe_allow_html=True)
 
 # 3. LOAD API KEY
-load_dotenv(r"E:\ML Project 1\.env")
-api_key = os.getenv("GROQ_API_KEY")
+load_dotenv()
+api_key = os.getenv("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY")
 if not api_key:
     st.error("Groq API key not found. Check your .env file.")
     st.stop()
@@ -37,8 +38,10 @@ client = Groq(api_key=api_key)
 @st.cache_resource
 def load_resources():
     embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
-    faiss_index = faiss.read_index(r"E:\ML Project 1\data\policy_index.faiss")
-    with open(r"E:\ML Project 1\data\policy_chunks.txt", "r", encoding="utf-8") as file:
+    base_dir = Path(__file__).resolve().parent
+    data_dir = base_dir / "data"
+    faiss_index = faiss.read_index(str(data_dir / "policy_index.faiss"))
+    with open(data_dir / "policy_chunks.txt", "r", encoding="utf-8") as file:
         policy_chunks = file.readlines()
     return embedding_model, faiss_index, policy_chunks
 
