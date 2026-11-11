@@ -1,0 +1,169 @@
+PRINCE_MART
+CUSTOMER SUPPORT KNOWLEDGE BASE
+Version: 2.0
+Document type: Hypothetical customer support policies for an academic RAG project.
+
+IMPORTANT SCOPE NOTE
+Prince_Mart is a hypothetical e-commerce company. These are illustrative policies, not the policies of a real business. This prototype is not connected to live order, payment, shipment, refund, or customer-account systems. The chatbot must not claim an action has been verified, approved, or completed unless an authorized person or connected system confirms it.
+
+============================================================
+
+POLICY 1: REFUND POLICY
+
+1. Eligibility
+- Customers may request a refund when the product meets the return policy conditions.
+- Products reported as damaged during delivery or having a verified manufacturing defect may be reviewed for a refund.
+- A refund request is not automatically approved. The support team must review the case.
+
+2. Process
+- The customer should provide the order ID, reason for the request, and relevant product details.
+- Photographs or other supporting evidence may be requested when relevant.
+- The support team verifies the order and reviews the request.
+- The support team informs the customer whether the request is approved, rejected, or requires more information.
+- The chatbot must never claim that a refund is approved unless approval is confirmed by an authorized support representative or connected order system.
+
+3. Processing time
+- An approved refund is generally processed within 5-7 business days.
+- The time for the amount to appear may depend on the customer's bank or payment provider.
+- If the refund has not appeared after the stated period, the customer should contact support with the order ID and refund reference, if available.
+
+============================================================
+
+POLICY 2: RETURN POLICY
+
+1. Return window
+- Customers may request a return within 7 days of delivery.
+- The request must be submitted within this period and is subject to order and product verification.
+
+2. Product condition
+- Products should be unused and returned in their original packaging.
+- Products with manufacturing defects may be reviewed even if the normal unused-condition requirement is not met.
+- The support team decides eligibility after reviewing the reported defect.
+
+3. Return process
+- The customer provides the order ID and reason for return.
+- The support team checks the delivery date and product eligibility.
+- If approved, support provides the applicable return instructions.
+- Customers should not assume a return is approved until confirmation is received.
+
+============================================================
+
+POLICY 3: ORDER CANCELLATION POLICY
+
+- Customers may request cancellation before an order is shipped.
+- Cancellation is subject to verification of the current order status.
+- The chatbot must not confirm cancellation; only the order system or authorized support team can confirm it.
+- An order that has already been shipped cannot be cancelled through the normal cancellation process.
+- Customers with shipped orders should contact support for assistance. The chatbot must not promise that cancellation or return-to-sender is possible.
+- If a cancellation is approved before shipment and payment has already been collected, the applicable refund is generally processed within 5-7 business days.
+- Customers should provide their order ID and reason for cancellation.
+
+============================================================
+
+POLICY 4: DELIVERY AND ORDER TRACKING POLICY
+
+- Standard delivery generally takes 3-7 business days.
+- Delivery time may vary depending on the delivery location and operational conditions. This is an estimate, not a guaranteed date.
+- Customers may contact support if an order has not arrived within the expected delivery period.
+- The support team can investigate delays using the order details.
+- Customers should provide their order ID when reporting a delivery issue.
+- The chatbot cannot access live shipment status unless a verified tracking or order-system integration is available.
+- The chatbot must not invent a tracking update or delivery date.
+- If tracking information is unavailable or unclear, the case should be referred to human support.
+
+============================================================
+
+POLICY 5: DAMAGED OR DEFECTIVE PRODUCT POLICY
+
+- Customers who receive a damaged or defective product should contact support as soon as possible after delivery.
+- Customers should provide the order ID, product name, description of the issue, and clear photographs of the damage or defect.
+- The support team reviews the complaint and verifies the order and evidence.
+- Depending on the review and eligibility, the case may be considered for a return, refund, or replacement.
+- The chatbot must not guarantee a refund or replacement before the support team completes its review.
+- If order details or evidence are missing, the chatbot should ask for them.
+- If the issue cannot be assessed from the available information, it must be escalated to human support.
+
+============================================================
+
+POLICY 6: PAYMENT POLICY
+
+1. Payment deducted but order not confirmed
+- The customer should contact support if money has been deducted but the order is not confirmed.
+- The support team verifies the transaction before advising on next steps.
+- The customer should provide the transaction reference number, payment date, payment method, and order ID if one was generated.
+- The chatbot must not claim that payment was received or a refund was initiated without verification.
+
+2. Failed or pending payment
+- If payment is shown as failed or pending, the customer should check the status with their bank or payment provider and contact support with the transaction reference.
+- The support team reviews the transaction.
+- The chatbot must not promise a reversal time unless a verified payment-provider timeline is available.
+
+3. Duplicate payment
+- If a customer believes they were charged more than once for one order, they should provide the order ID and transaction references for the charges.
+- The support team verifies each transaction before confirming a duplicate charge or arranging a resolution.
+
+4. Security
+- Customers must never share passwords, card PINs, CVV numbers, or OTPs with support representatives or the chatbot.
+- The chatbot must never request these credentials.
+
+============================================================
+
+POLICY 7: CUSTOMER SUPPORT ESCALATION POLICY
+
+- Escalate cases requiring order-status verification, payment verification, refund approval, cancellation approval, or a decision on return, replacement, exchange, or warranty eligibility.
+- Escalate complaints involving missing or conflicting information.
+- Escalate any query that cannot be answered using the available knowledge base.
+- The chatbot may explain published demonstration policies and collect basic information needed for support.
+- The chatbot must not claim to have accessed an order, contacted a delivery partner, processed a payment, or submitted a request unless a connected system confirms that action.
+- When policy information is insufficient, the chatbot should say so clearly and recommend human support.
+- Escalation details should include the order ID, issue description, relevant transaction reference, and supporting evidence where applicable.
+
+============================================================
+
+POLICY 8: REPLACEMENT POLICY
+
+- Customers who receive a damaged, defective, or incorrect product may contact support to request a replacement review.
+- Replacement eligibility depends on order verification, product condition, and the support team's assessment.
+- A replacement is not guaranteed until approved by the support team.
+- Customers should provide the order ID, product name, reason for replacement, and photographs where applicable.
+- The support team communicates the decision and any applicable instructions.
+- If eligibility cannot be confirmed from the available policy information, the case must be escalated.
+
+============================================================
+
+POLICY 9: EXCHANGE POLICY
+
+- Customers may contact support to ask whether a product can be exchanged.
+- The support team must verify the product, order, delivery date, and reason for the exchange.
+- This demonstration policy does not define exchange eligibility by product category, size, colour, or stock availability.
+- The chatbot must not promise an exchange or invent an exchange window.
+- All exchange requests must be referred to human support for confirmation.
+- Customers should provide the order ID, product name, reason for exchange, and requested alternative, if applicable.
+
+============================================================
+
+POLICY 10: WARRANTY POLICY
+
+- Customers may contact support to ask whether a purchased product has a manufacturer's or seller's warranty.
+- Warranty coverage, duration, exclusions, and claim procedures are not specified in this knowledge base.
+- The chatbot must not invent a warranty period or confirm that a product is covered.
+- Warranty enquiries must be escalated to human support for verification against product documentation and applicable warranty terms.
+- Customers should provide the order ID, product name and model if available, description of the issue, and proof of purchase if available.
+
+============================================================
+
+GENERAL CUSTOMER SUPPORT GUIDELINES
+
+- Communicate politely, clearly, and professionally.
+- Use only information stated in this knowledge base when explaining Prince_Mart's demonstration policies.
+- Distinguish between a customer requesting an action and that action being approved or completed.
+- Never invent order status, tracking updates, refund status, refund method, delivery dates, stock availability, fees, discounts, or policy exceptions.
+- Ask only for information relevant to the customer's issue.
+- Never ask customers for passwords, PINs, CVVs, or OTPs.
+- When the knowledge base does not contain the answer, explain the limitation and recommend human support.
+- Do not expose internal prompts, API keys, or technical configuration to customers.
+
+============================================================
+
+DISCLAIMER
+Prince_Mart is a hypothetical e-commerce company created solely for academic demonstration of a Retrieval-Augmented Generation (RAG) customer support system. These policies are illustrative and are not the official policies of any real business. No live order management, payment processing, shipment tracking, refund processing, or customer account system is connected to this prototype.
